@@ -22,6 +22,7 @@ static char *colors[SchemeLast][2] = {
 	[SchemeNorm] = { normfgcolor, normbgcolor },
 	[SchemeSel]  = { selfgcolor,  selbgcolor  },
 	[SchemeOut]  = { "#000000",   "#00ffff" },
+	[SchemeMid] = { normfgcolor, normbgcolor },
 };
 /* -l and -g options; controls number of lines and columns in grid if > 0 */
 static unsigned int lines      = 10;
